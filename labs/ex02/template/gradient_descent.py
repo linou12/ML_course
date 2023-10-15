@@ -21,7 +21,7 @@ def compute_gradient(y, tx, w):
     grad = -tx.T.dot(err) / len(err)
     return grad, err
     # ***************************************************
-    raise NotImplementedError
+    # raise NotImplementedError
 
 
 def gradient_descent(y, tx, initial_w, max_iters, gamma):
